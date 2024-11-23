@@ -5,7 +5,7 @@ public static string biggerIsGreater(string w)
       char[] charW = w.ToCharArray();
       int n = charW.Length;
 
-      // Step 1: Find the pivot (rightmost character smaller than its next)
+      // Step 1: Find the pivot (rightmost character smaller than its next )
       int pivot = -1;
       for (int i = n - 2; i >= 0; i--)
       {
