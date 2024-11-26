@@ -3,7 +3,7 @@ using System;
 class Program {
   public static void Main (string[] args) {
     
-    //Console.WriteLine (BiggerIsGreater.biggerIsGreater("abcd"));
+    //Console.WriteLine(BiggerIsGreater.biggerIsGreater("abcd"));
 
     //Console.WriteLine(string.Join(" ", AbsolutePermutation.absolutePermutation(4, 2)));
     
@@ -26,18 +26,18 @@ class Program {
     // new List<int> { 0, 0, 1, 2, 4, 0 }
     // }));
 
-    RansomNote.checkMagazine(
-    new List<string> { "give", "me", "one", "grand", "today", "night" },
-    new List<string> { "give", "one", "grand", "today" }
-    );
+  //   RansomNote.checkMagazine(
+  //   new List<string> { "give", "me", "one", "grand", "today", "night" },
+  //   new List<string> { "give", "one", "grand", "today" }
+  //   );
 
-    RansomNote.checkMagazine(
-    new List<string> { "hello", "world" },
-    new List<string> { "Hello" }
-    );
+  //   RansomNote.checkMagazine(
+  //   new List<string> { "hello", "world" },
+  //   new List<string> { "Hello" }
+  //   );
+  
+
+  Console.WriteLine(MakingAnagrams.makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
   }
-
-  
-  
   
 }
