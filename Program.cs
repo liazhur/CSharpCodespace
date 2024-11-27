@@ -37,7 +37,10 @@ class Program {
   //   );
   
 
-  Console.WriteLine(MakingAnagrams.makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
+  //Console.WriteLine(MakingAnagrams.makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
+  //Console.WriteLine(MakingAnagrams.makeAnagramString("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
+  Console.WriteLine(GreedyAlgorithm.minimumAbsoluteDifference(new List<int> {3, -7, 0}));
+  
   }
   
 }

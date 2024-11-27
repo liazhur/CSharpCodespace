@@ -49,4 +49,48 @@ public class MakingAnagrams
     return deletions;
 }
 
+public static int makeAnagramString(string a, string b)
+{
+    // Iterate through each character in the alphabet
+    for (char c = 'a'; c <= 'z'; c++)
+    {
+        // Find the count of `c` in both strings
+        int countA = a.Count(ch => ch == c);
+        int countB = b.Count(ch => ch == c);
+
+        // Calculate the number of common occurrences
+        int minCount = Math.Min(countA, countB);
+
+        // Remove common characters manually
+        a = RemoveCharacters(a, c, minCount);
+        b = RemoveCharacters(b, c, minCount);
+    }
+
+    // Return the total remaining character count
+    return a.Length + b.Length;
+}
+
+// Helper function to remove a specific number of characters
+private static string RemoveCharacters(string str, char character, int count)
+{
+    var result = new List<char>();
+    int removed = 0;
+
+    foreach (var ch in str)
+    {
+        if (ch == character && removed < count)
+        {
+            removed++;
+        }
+        else
+        {
+            result.Add(ch);
+        }
+    }
+
+    return new string(result.ToArray());
+}
+
+
+
 }
