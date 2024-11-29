@@ -39,7 +39,12 @@ class Program {
 
   //Console.WriteLine(MakingAnagrams.makeAnagram("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
   //Console.WriteLine(MakingAnagrams.makeAnagramString("fcrxzwscanmligyxyvym","jxwtrhvujlmrpdoqbisbwhmgpmeoke"));
-  Console.WriteLine(GreedyAlgorithm.minimumAbsoluteDifference(new List<int> {3, -7, 0}));
+  //Console.WriteLine(GreedyAlgorithm.minimumAbsoluteDifference(new List<int> {3, -7, 0}));
+ // Console.WriteLine(Fibonacci.fibonacci(6));
+
+    Console.WriteLine(FlippingBits.flippingBits(2147483647));
+  
+
   
   }
   
