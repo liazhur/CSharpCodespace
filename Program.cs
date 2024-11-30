@@ -42,7 +42,9 @@ class Program {
   //Console.WriteLine(GreedyAlgorithm.minimumAbsoluteDifference(new List<int> {3, -7, 0}));
  // Console.WriteLine(Fibonacci.fibonacci(6));
 
-    Console.WriteLine(FlippingBits.flippingBits(2147483647));
+    //Console.WriteLine(FlippingBits.flippingBits(2147483647));
+
+     Console.WriteLine(JumpingOnTheClouds.jumpingOnClouds(new List<int> {0,0,0,0,1,0}));
   
 
   
