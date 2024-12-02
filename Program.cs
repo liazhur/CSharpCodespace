@@ -42,10 +42,15 @@ class Program {
   //Console.WriteLine(GreedyAlgorithm.minimumAbsoluteDifference(new List<int> {3, -7, 0}));
  // Console.WriteLine(Fibonacci.fibonacci(6));
 
-    //Console.WriteLine(FlippingBits.flippingBits(2147483647));
+  //Console.WriteLine(FlippingBits.flippingBits(2147483647));
 
-     Console.WriteLine(JumpingOnTheClouds.jumpingOnClouds(new List<int> {0,0,0,0,1,0}));
-  
+  //Console.WriteLine(JumpingOnTheClouds.jumpingOnClouds(new List<int> {0,0,0,0,1,0}));
+
+  //Console.WriteLine(RepeatedString.repeatedString("aba", 10));
+     
+  //MinimumBribes.minimumBribes(new List<int> {2,1,5,3,4});
+  Console.WriteLine(MinimumSwaps2.minimumSwaps([4,3,1,2]));
+
 
   
   }
