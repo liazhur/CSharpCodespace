@@ -49,7 +49,11 @@ class Program {
   //Console.WriteLine(RepeatedString.repeatedString("aba", 10));
      
   //MinimumBribes.minimumBribes(new List<int> {2,1,5,3,4});
-  Console.WriteLine(MinimumSwaps2.minimumSwaps([4,3,1,2]));
+  //Console.WriteLine(MinimumSwaps2.minimumSwaps([4,3,1,2]));
+
+  //Console.WriteLine(CountTriplets.countTriplets(new List<long> {1,3,9,9,27,81}, 3));
+   Console.WriteLine(CountTriplets.countTripletsOtpimized(new List<long> {1,3,9,9,27,81}, 3));
+
 
 
   
