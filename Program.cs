@@ -52,7 +52,18 @@ class Program {
   //Console.WriteLine(MinimumSwaps2.minimumSwaps([4,3,1,2]));
 
   //Console.WriteLine(CountTriplets.countTriplets(new List<long> {1,3,9,9,27,81}, 3));
-   Console.WriteLine(CountTriplets.countTripletsOtpimized(new List<long> {1,3,9,9,27,81}, 3));
+  // Console.WriteLine(CountTriplets.countTripletsOtpimized(new List<long> {1,3,9,9,27,81}, 3));
+
+
+        int n = 5; // Size of the array
+        List<List<int>> queries = new List<List<int>>
+        {
+            new List<int> { 1, 2, 100 }, // Add 100 to elements 1 through 2
+            new List<int> { 2, 5, 100 }, // Add 100 to elements 2 through 5
+            new List<int> { 3, 4, 100 }  // Add 100 to elements 3 through 4
+        };
+        Console.WriteLine(ArrayManipulation.arrayManipulationOptimized(n, queries));
+
 
 
 
